@@ -1,0 +1,26 @@
+body{
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    color:#09359c;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Playfair Display';
+    color:#09359c;
+    text-align: center;
+}
+
+.footnote{
+    font-size:10px;
+    color:red;
+    text-align: left;
+}
+.info{
+    text-align: center;
+    color:#09359c;
+}
+
+.investing{
+    text-align: center;
+}
