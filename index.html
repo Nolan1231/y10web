@@ -12,6 +12,34 @@
     </head>
     
     <body>
+        
+        <div class="button">
+            <button onclick="myfunction()"><a href="aboutus.html">About Us</a></button>
+
+            <button onclick="window.open('website')()">Investment Tips</button>
+                <style>
+                    #printme {
+                        background: beige;
+                        color:red;
+                        height: 200;
+                        text-align: center;
+                        vertical-align: middle;
+                    }
+        
+                    button {
+                    color: dodgerblue;
+                    padding: 7px;
+                    }
+                </style>
+    
+                <script>
+                    function myfunction() {
+                        mydiv = document.getElementById("printme");
+                        mydiv.innerHTML = "Hello World";
+                    }
+                </script>
+        </div>
+        
         <div class="info">
             <br> Here at the Nolan Corporation, one of our many areas of expertise is investing (stock trading). We offer insightful feedback and guide you along your introduction to stock trading.
            <br>
@@ -45,7 +73,7 @@
         
         <div class="footnote">
             <p>This website was built by Nolan Murrell</p>
-            <p>© 2019 Nolan Inc.</p>
+            © <script>document.write(new Date().getFullYear())</script> Nolan Inc.</script>
         </div>
         
     </body>

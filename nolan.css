@@ -5,6 +5,9 @@ body{
     margin-right:50px;
     margin-left:50px;
     background-color: aliceblue;
+    border: 0.2px solid;
+    border-color: black;
+    padding: 30px;
 }
 
 h1{
